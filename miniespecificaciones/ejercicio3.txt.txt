@@ -1,0 +1,15 @@
+1.  Inicio
+2.  funcion principal()
+3.      v1, i[0-n] <-- 11
+4.      v2, i[0-n] <-- 10
+5.      v3, i[0-n]
+6.      v3 <-- obtenerSuma(v1, v2)
+7.      Escribir v3 
+8.  fin funcion principal 
+9. funcion obtenerSuma(a, i ; b, i) : i
+10.      v2, i[0-n]
+11.      v2 <-- a + b
+12.      retorna v2
+13. fin funcion obtenerSuma
+14. Fin
+

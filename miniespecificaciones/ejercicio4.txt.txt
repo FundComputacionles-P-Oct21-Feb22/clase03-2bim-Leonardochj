@@ -1,0 +1,42 @@
+1. Inicio
+2. funcion principal()
+3.      v1, d[0-n] <-- 11
+4.      v2, d[0-n] <-- 8.5
+5.      v3, d[0-n]
+6.      mensaje, x(20)[{a-z}, {A-Z}, "BS"]
+
+7.      v3 <-- obtenerSuma(v1, v2)
+8.      Escribir "La suma es:" v3 
+
+9.      v3 <-- obtenerPromedio(v3) // el promedio es igual a la suma/2
+10.     Escribir "El promedio es: " + v3
+
+11.     mensaje <-- obtenerPromedioCualitativo(v3) // Si promedio es mayor a 0 y menor o igual a 5 
+                                                   // el promedio es malo; caso contrario es bueno
+12.     Escribir mensaje
+13. fin funcion principal
+
+//  se define un método o función llamada obtenerSuma
+14.    funcion obtenerSuma (a, d ; b, d) : d
+15.       v3, d[0-n]
+16.       v3 <-- a + b
+17.       retorna v3
+18.    fin funcion obtenerSuma
+
+19.    funcion obtenerPromedio(promedio,d): d
+20.       v3, d[0-n]
+21.       v3 <-- promedio/2
+22.       retorna v3
+23.    fin funcion obtenerPromedio
+
+24.    funcion obtenerPromedioCualitativo(prom, d): x
+25.    promedio, x(50)[{a-z}, {A-Z}, "BS"]
+26.    Si (prom > 0 and prom <= 5) entonces
+27.         promedio <-- "Promedio cualitativo malo"
+28.         Caso contrario
+29.         promedio <-- "Promedio cualitativo bueno"
+30.    Fin si
+31.    retorna promedio
+32.    fin funcion obtenerPromedioCualitativo
+
+33. Fin
